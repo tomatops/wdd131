@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header, footer {
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+/* Navigation */
+h2 {
+    text-align: left;
+}
+
+header {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+}
+
+/* Menu */
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "×";
+    font-size: 2rem;
+}
+
+ul {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    list-style: none;
+    background-color: rgb(46, 64, 123);
+    color: #fff;
+}
+
+ul a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover {
+    color: #98bbd8;
+}
+
+.open a {
+    display: block;
+}
+
+/* Main */
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1000px;
+}
+
+.temples {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    place-items: center;
+}
+
+figure {
+    padding: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #3d78a9;
+    margin-top: 1rem;
+    border-top: 1px solid #3d78a9;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#currentyear {
+    color: white;
+}
+
+#lastModified {
+    color: yellow;
+}
