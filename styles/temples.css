@@ -13,7 +13,7 @@ header, footer {
 }
 
 /* Navigation */
-h2 {
+h1 {
     text-align: left;
 }
 
@@ -71,7 +71,7 @@ ul a:hover {
 }
 
 /* Main */
-h1 {
+h2 {
     text-align: center;
 }
 
