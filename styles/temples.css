@@ -21,7 +21,7 @@ header {
     display: grid;
     grid-gap: 1rem;
     padding: 1rem;
-    background-color: steelblue;
+    background-color: rgb(55, 100, 137);
     color: white;
 }
 
@@ -50,7 +50,7 @@ ul {
     margin: 0 auto;
     flex-direction: column;
     list-style: none;
-    background-color: rgb(46, 64, 123);
+    background-color: rgb(28, 40, 80);
     color: #fff;
 }
 
@@ -93,9 +93,8 @@ figure {
 
 /* Footer */
 footer {
-    background-color: #3d78a9;
+    background-color: rgb(38, 69, 94);
     margin-top: 1rem;
-    border-top: 1px solid #3d78a9;
     text-align: center;
     color: white;
     padding: 10px;
