@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    width: 300px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: smaller;
+    padding: 0.3rem;
+}
+
+thead {
+    color: white;
+    background: black;
+}
+
+th, td {
+    padding: 0.5em;
+    border: 1px solid lightgrey;
+    white-space: nowrap;
+    text-align: center;
+}
+
+th {
+    padding: 1rem;
+    font-size: larger;
+}
+
+thead tr:nth-child(2) {
+    background-color: rgb(68, 68, 68);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(232, 232, 232);
+}
+
+.blank {
+    background-color: black;
+}
