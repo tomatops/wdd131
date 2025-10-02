@@ -37,9 +37,10 @@
     }
     
     .weather img {
-        position: absolute;
-        top: 1em;
-        right: 9.5em;
-        width: 60px;
+        display: none;
+    }
+
+    .weather h2::after {
+        content: " ⛅";
     }
 }
