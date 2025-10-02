@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="description" content="Country page.">
+    <meta name="author" content="Madelaine Thea Tirazona">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Philippines</h1>
+    </header>
+    <main>
+        <section>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/rice-terraces.webp" media="min-width: 1000px">
+                    <img src="images/rice-terraces-small.webp" alt="Rice terraces">
+                </picture>
+            </div>
+        </section>
+        <section>
+            <div class="data">
+                <div class="title">
+                    <h2>Data</h2>
+                </div>
+                <div class="container">
+                    <div class="label">
+                        <p>Area:</p>
+                        <p>Population:</p>
+                        <p>Capital:</p>
+                        <p>Languages:</p>
+                        <p>Currency:</p>
+                        <p>Time Zone:</p>
+                        <p>Calling Code:</p>
+                        <p>Internet TLD:</p>
+                    </div>
+                    <div class="value">
+                        <p>298,170 sq km</p>
+                        <p>116,538,630</p>
+                        <p>Manila</p>
+                        <p>Filipino, English</p>
+                        <p>Philippine Peso</p>
+                        <p>UTC+8</p>
+                        <p>+63</p>
+                        <p>.ph</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="weather">
+                <div class="title">
+                    <h2>Weather</h2>
+                </div>
+                <img src="images/weather.svg" alt="Sun behind clouds icon">
+                <div class="container">
+                    <div class="label">
+                        <p>Temperature:</p>
+                        <p>Conditions:</p>
+                        <p>Wind:</p>
+                        <p>Wind Chill:</p>
+                    </div>
+                    <div class="value">
+                        <p id="temp">28 °C</p>
+                        <p>Mostly cloudy</p>
+                        <p id="speed">10 km/h</p>
+                        <p id="windChill"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©️ <span id="currentyear"></span> ☘ Madelaine Thea Tirazona | Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
