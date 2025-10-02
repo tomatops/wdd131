@@ -23,7 +23,7 @@
     .title {
         position: absolute;
         display: flex;
-        background-color: rgb(65, 120, 165);
+        background-color: var(--blue);
         text-align: left;
         color: #fff;
         padding: 1rem;
