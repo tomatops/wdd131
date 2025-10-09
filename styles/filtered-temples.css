@@ -81,6 +81,16 @@ main {
     max-width: 1000px;
 }
 
+figure {
+    padding: 1rem;
+    background-color: rgb(228, 236, 244);
+    min-height: 350px;
+}
+
+img {
+    padding-top: 1rem;
+}
+
 .temples-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
@@ -93,16 +103,6 @@ main {
 .temples-grid p {
     text-align: center;
     padding-top: 0.3rem;
-}
-
-figure {
-    padding: 1rem;
-    background-color: rgb(228, 236, 244);
-    min-height: 350px;
-}
-
-img {
-    padding-top: 1rem;
 }
 
 /* Footer */
