@@ -1,0 +1,21 @@
+@media (min-width: 1000px) {
+    /* Menu */
+    h1 {
+        position: absolute;
+        padding-top: 0.7rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    ul {
+        justify-content: right;
+        background-color: rgb(55, 100, 137);
+        flex-direction: row;
+    }
+
+    ul a {
+        display: flex;
+    }
+}
